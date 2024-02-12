@@ -8,7 +8,8 @@
 	background-color: var(--colour-green);
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 60vh;
+	height: 70vh;
+	margin-bottom: 4rem;
 }
 
 .page-intro__container {
@@ -18,4 +19,54 @@
 
 .page-intro__introduction {
 	max-width: 25%;
+}
+
+.about {
+	margin-bottom: 4rem;
+}
+
+.about__container {
+	display: flex;
+	flex-direction: row;
+	align-items: end;
+}
+
+.about__information {
+	width: 25%;
+	margin-left: 4rem;
+	padding-bottom: 3rem;
+	height: 50%;
+
+	p {
+		margin-bottom: 1.5rem;
+	}
+}
+
+.about__image {
+	width: 45rem;
+}
+
+.players {
+	background-color: var(--colour-beige);
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+
+.players__container {
+}
+
+.players__heading {
+	margin-bottom: 2rem;
+}
+
+.players__benefits {
+	list-style: none;
+
+	li {
+		margin-bottom: 1rem;
+		font-size: 1.5rem;
+	}
+}
+
+.players__benefits-container {
 }
