@@ -5,17 +5,48 @@
 	padding-top: 1rem;
 	padding-bottom: 1rem;
 	z-index: 1;
+	position: fixed;
+	top: 0rem;
+	width: 100%;
 }
 
 .navigation:hover {
-	opacity: 0.2;
-	background-color: rgba(0, 0, 0, 0.5);
-	transition: all 1s;
+	background-color: rgba(0, 0, 0, 0.4);
+	transition: ease-in-out 1s;
 	padding-top: 2.5rem;
 	padding-bottom: 2.5rem;
+
+	.navigation__logo {
+		transform: scale(1.8);
+		transition: ease-in-out 1s;
+	}
 }
 
 .navigation__container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 	z-index: 100;
 	max-width: 100%;
+}
+
+.navigation__logo {
+	height: 3rem;
+}
+
+.navigation__logo:hover {
+	height: 5rem;
+	transition: all 1s;
+}
+
+.navigation__link-container {
+	display: flex;
+	flex-direction: row;
+	width: fit-content;
+}
+
+.navigation__link-texts {
+	margin-right: 1rem;
+	text-decoration: none;
+	color: var(--colour-white);
 }
