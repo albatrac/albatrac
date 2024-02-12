@@ -1,0 +1,21 @@
+/*
+	Styling navigation-component
+*/
+.navigation {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	z-index: 1;
+}
+
+.navigation:hover {
+	opacity: 0.2;
+	background-color: rgba(0, 0, 0, 0.5);
+	transition: all 1s;
+	padding-top: 2.5rem;
+	padding-bottom: 2.5rem;
+}
+
+.navigation__container {
+	z-index: 100;
+	max-width: 100%;
+}

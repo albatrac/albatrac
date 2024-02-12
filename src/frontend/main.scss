@@ -1,0 +1,13 @@
+/**
+	Collection of SCSS-files
+*/
+
+// GLOBAL STYLING
+@import "./styling/globals/base.scss";
+@import "./styling/globals/spacing.scss";
+@import "./styling/globals/typography.scss";
+@import "./styling/globals/variables.scss";
+
+// PARTIAL STYLING
+@import "./styling/partials/landing-page.scss";
+@import "./styling/partials/navigation.scss";
