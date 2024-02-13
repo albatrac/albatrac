@@ -1,5 +1,5 @@
 /**
- * Landing page for Albatrac website
+ * Navigation bar for Albatrac website
  */
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
