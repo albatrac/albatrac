@@ -1,6 +1,6 @@
 .button {
 	padding: 1rem;
-	font-family: "Mulish", sans-serif;
+	font-family: "Syne", sans-serif;
 	border-radius: 0px;
 	background-color: var(--colour-green);
 	color: var(--colour-white);
@@ -11,13 +11,22 @@
 	transition: ease-in-out 1s;
 }
 
+.button {
+	background-color: var(--colour-light-green);
+}
+
 .button--light {
 	background-color: var(--colour-light-green);
 }
+
+.button--light:hover {
+	background-color: var(--colour-green);
+}
+
 .button--dark {
 	background-color: var(--colour-dark-green);
 }
 
 .button--dark:hover {
-	background-color: var(--colour-light-green);
+	background-color: var(--colour-green);
 }

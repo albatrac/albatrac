@@ -9,6 +9,19 @@
 	top: 0rem;
 	width: 100%;
 	transition: ease-in-out 1s;
+	--page-padding: 8rem;
+}
+
+.navigation--scroll {
+	transition: ease-in-out 0.5s;
+
+	.navigation__logo {
+		filter: invert(1);
+		transform: scale(1.3);
+	}
+	.navigation__link-texts {
+		opacity: 1;
+	}
 }
 
 .navigation:hover {
@@ -17,9 +30,17 @@
 	padding-bottom: 2.5rem;
 
 	.navigation__logo {
-		transform: scale(1.8);
-		transition: ease-in-out 1s;
+		transform: scale(1.5);
+		filter: invert(1);
 	}
+
+	.navigation__link-texts {
+		opacity: 1;
+	}
+}
+
+.navigation__link-texts:hover {
+	transform: scale(1.2);
 }
 
 .navigation__container {
@@ -31,11 +52,12 @@
 }
 
 .navigation__logo {
-	height: 3rem;
+	height: 5rem;
+	transition: ease-in-out 1s;
 }
 
 .navigation__logo:hover {
-	height: 5rem;
+	height: 6rem;
 	transition: all 1s;
 }
 
@@ -46,7 +68,10 @@
 }
 
 .navigation__link-texts {
-	margin-right: 1rem;
+	margin-right: 2rem;
+	opacity: 0;
 	text-decoration: none;
 	color: var(--colour-white);
+	transition: ease-in-out 1s;
+	align-self: center;
 }
