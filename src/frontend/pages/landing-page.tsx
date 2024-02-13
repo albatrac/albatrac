@@ -20,9 +20,10 @@ const LandingPage = () => {
 				<div className="page-intro__container spacing">
 					<div className="page-intro__introduction">
 						<h3>
-							Lorem Ipsum is simply dummy text of the printing and
-							typesetting industry. Lorem Ipsum has been the
-							industry's standard dummy text ever since the 1500s,
+							Albatrac's mission is to revolutionise the world of
+							golf coaching by providing an innovative,
+							user-friendly platform and app that automates the
+							manual performance tracking of golf players.
 						</h3>
 						<button className="button button--dark">
 							Click here
