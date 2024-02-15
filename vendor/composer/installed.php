@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => '__root__',
-        'pretty_version' => 'dev-develop',
-        'version' => 'dev-develop',
-        'reference' => 'd3f96fc2bc9facb458f3a8a9affa7496b3c4f723',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '2199c23f68426eae7bcb3168e2db101d63752131',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         '__root__' => array(
-            'pretty_version' => 'dev-develop',
-            'version' => 'dev-develop',
-            'reference' => 'd3f96fc2bc9facb458f3a8a9affa7496b3c4f723',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '2199c23f68426eae7bcb3168e2db101d63752131',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -126,7 +126,7 @@
             'version' => 'dev-trunk',
             'reference' => 'trunk',
             'type' => 'wordpress-plugin',
-            'install_path' => __DIR__ . '/../../../Albatrac/wp-content/plugins/akismet',
+            'install_path' => __DIR__ . '/../../../Albatrac/wp-content/mu-plugins/akismet',
             'aliases' => array(),
             'dev_requirement' => false,
         ),

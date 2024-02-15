@@ -901,7 +901,7 @@
             "type": "wordpress-plugin",
             "installation-source": "dist",
             "homepage": "https://wordpress.org/plugins/akismet/",
-            "install-path": "../../../Albatrac/wp-content/plugins/akismet"
+            "install-path": "../../../Albatrac/wp-content/mu-plugins/akismet"
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",

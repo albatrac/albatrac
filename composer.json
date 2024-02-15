@@ -19,5 +19,12 @@
 		"allow-plugins": {
 			"composer/installers": true
 		}
+	},
+	"extra": {
+		"installer-paths": {
+			"wp-content/mu-plugins/{$name}/": [
+				"wpackagist-plugin/akismet"
+			]
+		}
 	}
 }
