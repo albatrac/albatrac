@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { NavLink, Link } from "react-router-dom";
-import Logo from "../../assets/images/Element 8.png";
+import Logo from "../../assets/images/logos/logo-dark.png";
 import { useState } from "react";
 
 const Navigation = () => {

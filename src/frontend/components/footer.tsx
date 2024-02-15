@@ -2,7 +2,7 @@
  * Footer for Albatrac website
  */
 
-import Logo from "../../assets/images/Element 8.png";
+import Logo from "../../assets/images/logos/logo-dark.png";
 
 const Footer = () => {
 	return (
