@@ -1,0 +1,82 @@
+/*
+	Styling text-image-component
+*/
+
+.players {
+	background-color: var(--colour-beige);
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+
+.players__container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.players__heading {
+	margin-bottom: 2rem;
+}
+
+.players__benefits {
+	list-style: none;
+
+	li {
+		font-size: 1.5rem;
+	}
+}
+
+.players__display {
+	height: 30rem;
+	width: 55rem;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: end;
+}
+
+.players__front-img {
+	height: 30rem;
+	z-index: 2;
+	border-radius: 1rem;
+	box-shadow: #0000 0.1rem 0, 0.2rem 0.2rem 0.5rem;
+	position: absolute;
+	float: left;
+}
+
+.players__backgr-img {
+	height: 27rem;
+	margin-bottom: 1.2rem;
+	z-index: 1;
+	border-radius: 1rem;
+	box-shadow: #0000 0.1rem 0, 0.2rem 0.2rem 0.5rem;
+	position: relative;
+
+	right: 0;
+	top: 0;
+}
+
+@media (max-width: 976px) {
+	.players__container {
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+
+	.players__display {
+		height: 50%;
+		width: 100%;
+		margin-bottom: 2rem;
+	}
+
+	.players__benefits-container {
+		h2 {
+			text-align: center;
+		}
+	}
+}
+@media (max-width: 480px) {
+	:root {
+		--page-padding: 2rem;
+	}
+}

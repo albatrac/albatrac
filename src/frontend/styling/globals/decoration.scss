@@ -1,7 +1,18 @@
+/*
+	Decoration for pages
+*/
+
 .line {
 	width: 20rem;
 	height: 0.3rem;
 	background-color: var(--colour-green);
 	margin-top: 1rem;
 	margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+	.line {
+		width: 10rem;
+		height: 0.2rem;
+	}
 }

@@ -5,8 +5,6 @@
 	--page-width: 100rem;
 	--page-padding: 12rem;
 
-	--margin: 3rem;
-
 	--colour-white: #fff;
 	--colour-black: #0000;
 
@@ -16,4 +14,15 @@
 
 	--colour-beige: #f3f5f2;
 	--colour-beige-green: #ebf3e7;
+}
+
+@media (max-width: 768px) {
+	:root {
+		--page-padding: 4rem;
+	}
+}
+@media (max-width: 480px) {
+	:root {
+		--page-padding: 2rem;
+	}
 }

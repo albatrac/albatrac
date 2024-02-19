@@ -1,0 +1,48 @@
+/*
+	Styling landing-page
+*/
+
+.coaches {
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
+
+.coaches__container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.coaches__benefits-container {
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+
+.coaches__benefits {
+	list-style: none;
+
+	li {
+		margin-bottom: 1rem;
+		font-size: 1.5rem;
+	}
+}
+
+.coach__image {
+	height: 35rem;
+}
+
+@media (max-width: 976px) {
+	.coaches__container {
+		display: flex;
+		flex-direction: column;
+
+		h2 {
+			text-align: center;
+		}
+	}
+
+	.coaches__benefits-container {
+		margin-bottom: 2rem;
+	}
+}

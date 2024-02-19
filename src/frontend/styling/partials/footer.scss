@@ -48,3 +48,54 @@ label.p {
 .footer__field.p {
 	font-size: 0.9rem;
 }
+
+@media (max-width: 976px) {
+	.footer {
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+	}
+
+	.footer__container {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+	}
+
+	.footer__info {
+		margin-right: 1rem;
+	}
+
+	.footer__logo {
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		img {
+			width: 50%;
+		}
+	}
+}
+
+@media (max-width: 480px) {
+	.footer {
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+	}
+
+	.footer__container {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+
+	.footer__info {
+		margin-right: 1rem;
+		margin-bottom: 2rem;
+	}
+
+	.footer__logo {
+		margin-top: 2rem;
+		padding-bottom: 1rem;
+		img {
+			width: 50%;
+		}
+	}
+}

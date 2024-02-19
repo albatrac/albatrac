@@ -1,0 +1,39 @@
+/*
+	Styling page-intro-component
+*/
+
+.page-intro {
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	background-color: var(--colour-green);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 70vh;
+	margin-bottom: 4rem;
+	--page-padding: 8rem;
+}
+
+.page-intro__container {
+	margin-bottom: 3rem;
+	color: var(--colour-white);
+}
+
+.page-intro__introduction {
+	max-width: 80%;
+}
+
+@media (max-width: 976px) {
+	.page-intro {
+		justify-content: end;
+		align-items: center;
+		max-height: 50vh;
+		min-height: 35rem;
+		margin-bottom: 4rem;
+		--page-padding: 2rem;
+	}
+
+	.page-intro__introduction {
+		max-width: 100%;
+	}
+}
