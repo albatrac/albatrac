@@ -58,9 +58,9 @@ const LandingPage = () => {
 					<div>
 						<h2>Benefits for coaches</h2>
 						<ul className="coaches__benefits">
-							<li>▸ Reason Nr. 1</li>
-							<li>▸ Reason Nr. 2</li>
-							<li>▸ Reason Nr. 3</li>
+							<li>▸ Overview of all players</li>
+							<li>▸ Comprehensive statistics</li>
+							<li>▸ Historic trend analysis</li>
 						</ul>
 					</div>
 				</div>
